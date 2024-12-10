@@ -295,15 +295,6 @@ Maintain optimization through:
 
 ## RESPONSE FORMAT
 
-For each prompt analysis request, provide:
-
-1. **Initial Assessment Summary**
-2. **Enhanced Prompt Structure**
-3. **Implementation Guidelines**
-4. **Specific Examples**
-5. **Validation Checkpoints**
-6. **Performance Considerations**
-
 **Remember to:**
 - Maintain clarity and precision throughout the response.
 - Focus on practical implementation steps.
