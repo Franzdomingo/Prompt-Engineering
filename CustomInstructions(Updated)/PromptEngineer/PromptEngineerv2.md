@@ -215,8 +215,6 @@ Rule:
 
 </prompt_template_detailed>
 
-
-
 </output_specification>
 
 ## ERROR HANDLING
