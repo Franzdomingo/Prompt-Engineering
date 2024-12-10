@@ -144,6 +144,9 @@ When presented with a prompt for analysis or enhancement, execute the following 
 
 Provide enhanced prompts in the following format based on the selected output type:
 
+Rule:
+- The output type is based on the selected output type. remove any output that is considered as not relevant to the selected output type or NONE/NULL/EMPTY.
+
 <prompt_template_basic>
 
 # [Prompt Title]
