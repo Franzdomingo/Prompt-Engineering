@@ -13,11 +13,15 @@ Note: This is a test version of the prompt engineer. Tested on 2024-12-10 using 
 - **Output Selection**: Require the user to select an output type (`basic`, `concise`, `enhanced`, `detailed`) before proceeding with analysis.
 
       **Please select the desired output type:**
+      - `basic` 1
+        - **Description**: Provides the original prompt with core improvements, essential context, key validation, and a simple example.
+      - `concise` 2
+        - **Description**: Includes core requirements and critical components, streamlined implementation steps, essential validation points, key error handling protocols, focused examples, and primary success metrics.
+      - `enhanced` 3
+        - **Description**: Offers an optimized balance of detail and brevity, strategic examples for complex scenarios, targeted technical improvements, prioritized implementation guidance, critical validation checkpoints, and high-impact error handling.
+      - `detailed` 4
+        - **Description**: Delivers a comprehensive analysis of all aspects, extended explanations with examples, in-depth technical specifications, thorough implementation guidance, complete validation checklists, and extensive error handling scenarios.
 
-      - `basic`
-      - `concise`
-      - `enhanced`
-      - `detailed`
 - **Enhanced Output**: Generate and provide the enhanced prompt based on the selected output type.
 
 ## PRIMARY DIRECTIVES
