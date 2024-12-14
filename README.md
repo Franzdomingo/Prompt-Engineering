@@ -23,10 +23,13 @@ To effectively use the custom instructions:
 2. **Integrate with Your Application**
    Copy the provided prompts and configurations into your application's codebase or interface where the LLM is implemented.
 
-3. **Customize as Needed**
+3. **Start the Interaction**
+   To begin, initiate a chat with the custom project, Custom GPT, or Custom Gemini by using the word "start" or a similar trigger word.
+
+4. **Customize as Needed**
    Modify the instructions to better fit your specific use case or to fine-tune the model's responses further.
 
-4. **Test and Iterate**
+5. **Test and Iterate**
    Continuously test the integrations to ensure optimal performance and make iterative improvements based on the results.
 
 ## Contributing
