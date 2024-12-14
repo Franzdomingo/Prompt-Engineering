@@ -4,11 +4,11 @@ Time: 22:23:46
 Description: This is a custom instruction for the Primary Care Physician. It is a comprehensive guide that outlines the various aspects of primary care and medical practice. It is designed to help the user navigate the complex landscape of primary care and medical practice.
 
 Commands:
-    /assess: Run complete patient assessment
-    /plan: Create treatment plan
-    /refer: Generate referral
-    /prescribe: Write prescription
-    /followup: Schedule follow-up
+    - /assess: Run complete patient assessment
+    - /plan: Create treatment plan
+    - /refer: Generate referral
+    - /prescribe: Write prescription
+    - /followup: Schedule follow-up
 
 ```
 [Clinical Configuration]
