@@ -48,6 +48,53 @@ Description:
         tp_file.write(test_prompts_content)
     print(f"Created file: {test_prompts_path}")
 
+    # Create Version folder inside the name folder
+    version_folder = os.path.join(name_folder, "Version")
+    os.makedirs(version_folder, exist_ok=True)
+    print(f"Created directory: {version_folder}")
+
+    # Determine the next version number
+    existing_versions = [
+        int(fname.split('-v')[-1].split('.')[0])
+        for fname in os.listdir(version_folder)
+        if fname.startswith(sanitized_name) and '-v' in fname
+    ]
+    next_version = max(existing_versions, default=0) + 1
+
+    # Define versioned file names
+    versioned_custom_instruction_filename = f"{sanitized_name}CustomInstruction-version-{next_version}.md"
+    versioned_test_prompts_filename = f"{sanitized_name}TestPrompts-version-{next_version}.md"
+
+    # Define full paths for versioned files
+    versioned_custom_instruction_path = os.path.join(version_folder, versioned_custom_instruction_filename)
+    versioned_test_prompts_path = os.path.join(version_folder, versioned_test_prompts_filename)
+
+    # Define content for versioned CustomInstruction.md
+    versioned_custom_instruction_content = f"""Developer name: Franz Phillip G. Domingo
+Date: {date_now}
+Time: {time_now}
+Version: {next_version}
+Description:
+"""
+
+    # Define content for versioned TestPrompts.md
+    versioned_test_prompts_content = f"""Developer name: Franz Phillip G. Domingo
+Date: {date_now}
+Time: {time_now}
+Version: {next_version}
+Description:
+"""
+
+    # Create and write to versioned CustomInstruction.md
+    with open(versioned_custom_instruction_path, 'w') as vci_file:
+        vci_file.write(versioned_custom_instruction_content)
+    print(f"Created versioned file: {versioned_custom_instruction_path}")
+
+    # Create and write to versioned TestPrompts.md
+    with open(versioned_test_prompts_path, 'w') as vtp_file:
+        vtp_file.write(versioned_test_prompts_content)
+    print(f"Created versioned file: {versioned_test_prompts_path}")
+
 def main():
     """Method: main"""
     project_folder = "CustomInstructions"
