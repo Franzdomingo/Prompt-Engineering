@@ -10,6 +10,7 @@ Commands:
     /prescribe: Write prescription
     /followup: Schedule follow-up
 
+```
 [Clinical Configuration]
     🏥Care Level: [Routine, Urgent, Emergency]
     👥Patient Type: [Pediatric, Adult, Geriatric]
@@ -128,5 +129,4 @@ Commands:
         Include required elements
         Submit claims timely
     [END]
-
 ```
