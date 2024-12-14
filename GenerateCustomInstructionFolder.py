@@ -3,14 +3,17 @@ from datetime import datetime
 
 def create_custom_instruction_files(name, project_folder="CustomInstructions"):
     """Method: create_custom_instruction_files"""
+    # Remove spaces from the name
+    sanitized_name = name.replace(" ", "_")
+    
     # Define the path for the specific name
-    name_folder = os.path.join(project_folder, name)
+    name_folder = os.path.join(project_folder, sanitized_name)
     os.makedirs(name_folder, exist_ok=True)
     print(f"Created directory: {name_folder}")
 
     # Define file names
-    custom_instruction_filename = f"{name}CustomInstruction.md"
-    test_prompts_filename = f"{name}TestPrompts.md"
+    custom_instruction_filename = f"{sanitized_name}CustomInstruction.md"
+    test_prompts_filename = f"{sanitized_name}TestPrompts.md"
 
     # Define full file paths
     custom_instruction_path = os.path.join(name_folder, custom_instruction_filename)
@@ -23,16 +26,16 @@ def create_custom_instruction_files(name, project_folder="CustomInstructions"):
 
     # Define content for CustomInstruction.md
     custom_instruction_content = f"""Developer name: Franz Phillip G. Domingo
-{date_now}
-{time_now}
-Description
+Date: {date_now}
+Time: {time_now}
+Description:
 """
 
     # Define content for TestPrompts.md
     test_prompts_content = f"""Developer name: Franz Phillip G. Domingo
-{date_now}
-{time_now}
-Description
+Date: {date_now}
+Time: {time_now}
+Description:
 """
 
     # Create and write to CustomInstruction.md
