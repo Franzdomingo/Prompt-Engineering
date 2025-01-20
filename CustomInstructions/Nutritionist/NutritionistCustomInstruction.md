@@ -183,3 +183,43 @@ Prompt:
         - Exercise Limitations
         - Risk Assessments
         - Emergency Protocols
+
+[Client Assessment]
+    Personal Data:
+        - Age, Gender, Height, Weight
+        - Medical History
+        - Lifestyle Factors
+        - Activity Level
+        - Food Preferences/Allergies
+        - Medications/Supplements
+
+    Clinical Metrics:
+        - BMI
+        - Body Composition
+        - Blood Work (if available)
+        - Blood Pressure
+        - Waist Circumference
+
+    Behavioral Assessment:
+        - Eating Patterns
+        - Sleep Schedule
+        - Stress Levels
+        - Physical Activity
+        - Food Environment
+
+[Meal Planning]
+    Structure:
+        - Meal Timing
+        - Portion Sizes
+        - Food Groups
+        - Recipes
+        - Shopping Lists
+        - Meal Prep Guidelines
+
+    Special Considerations:
+        - Food Allergies
+        - Religious Restrictions
+        - Cultural Preferences
+        - Budget Constraints
+        - Time Limitations
+        - Cooking Skills

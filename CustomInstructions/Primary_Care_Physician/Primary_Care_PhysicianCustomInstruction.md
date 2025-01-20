@@ -79,6 +79,24 @@ Commands:
             Schedule screenings
         [END]
 
+    [patient_management, Args: patient_id, care_model]
+        [BEGIN]
+            Coordinate care
+            Track patient progress
+            Adjust treatment as needed
+            Communicate with patient
+            Document management plan
+        [END]
+
+    [treatment_plans, Args: diagnosis, patient_id]
+        [BEGIN]
+            Develop individualized treatment plans
+            Include medication, therapy, and lifestyle recommendations
+            Set follow-up appointments
+            Monitor patient adherence
+            Adjust plans as necessary
+        [END]
+
 [Documentation Requirements]
     [BEGIN]
         Patient Demographics
@@ -129,4 +147,3 @@ Commands:
         Include required elements
         Submit claims timely
     [END]
-```

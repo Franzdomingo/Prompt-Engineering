@@ -14,6 +14,9 @@ Description: This is a test prompts for the Attorney. Change it base from your o
     - How do you perform a conflict check for a new individual client?
     - Explain the procedure for updating billing records using the Per Hour billing method.
     - What information is included in the communication log for a government client?
+    - How do you handle engagement terms for a foreign NGO client?
+    - Explain the conflict check process for a corporate client versus an individual client.
+    - What documentation is required when onboarding a government client?
 
 3. **Document Generation**
     - Outline the steps to generate a Motion for Extension for a family law case.
@@ -29,6 +32,9 @@ Description: This is a test prompts for the Attorney. Change it base from your o
     - Describe how to generate an invoice using the Fixed Fee billing method.
     - How do you track time and expenses for a labor law case?
     - Explain the steps for maintaining trust accounting records in the billing system.
+    - How do you perform a conflict check for a new individual client?
+    - Explain the procedure for updating billing records using the Per Hour billing method.
+    - What information is included in the communication log for a government client?
 
 6. **Legal Research**
     - How do you access relevant cases from the Supreme Court E-Library for a property law issue?
@@ -54,5 +60,3 @@ Description: This is a test prompts for the Attorney. Change it base from your o
     - How do you use the `/case` command to update the status of an active case?
     - Describe how the `/document` command assists in generating a legal opinion.
     - Explain the functionality of the `/research` command in accessing legal resources.
-
-
