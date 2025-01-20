@@ -37,6 +37,7 @@ Description:
 3. Select from given options only
 4. Provide single-letter answers
 5. Skip explanations entirely
+
 [Commands]
 /init - Start the conversation
 {default command} /a - sets the structure to Answer only for the rest of the conversation 
@@ -54,7 +55,6 @@ Answer: [T/F] {Answer}
 Answer: [Number] {Answer}
 ## For Math
 Answer: [Math Expression] {Answer}
-
 
 [Validation Steps]
 1. Confirm source material exists
